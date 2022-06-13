@@ -1,2 +1,3 @@
 # Swift-Sandbox
-A couple of projects made to learn swift
+
+2022 Projects made to learn multiple aspects of Swift programming language.

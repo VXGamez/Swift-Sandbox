@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068013B0B0B82D0C31D089BB /* Pods_Insta_Grams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5892AF50C7E286F1FA4A83 /* Pods_Insta_Grams.framework */; };
+		FD7AD64C2747A162009781BC /* PerfilCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AD64B2747A162009781BC /* PerfilCollectionViewController.swift */; };
+		FD86D5DF27353AF6003E39E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D5DE27353AF6003E39E2 /* AppDelegate.swift */; };
+		FD86D5E127353AF6003E39E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D5E027353AF6003E39E2 /* SceneDelegate.swift */; };
+		FD86D5E327353AF6003E39E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D5E227353AF6003E39E2 /* ViewController.swift */; };
+		FD86D5E627353AF6003E39E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD86D5E427353AF6003E39E2 /* Main.storyboard */; };
+		FD86D5E827353AF8003E39E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD86D5E727353AF8003E39E2 /* Assets.xcassets */; };
+		FD86D5EB27353AF8003E39E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD86D5E927353AF8003E39E2 /* LaunchScreen.storyboard */; };
+		FD86D61327353F41003E39E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D61227353F41003E39E2 /* DetailViewController.swift */; };
+		FD86D61527354252003E39E2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D61427354252003E39E2 /* Home.swift */; };
+		FD86D61727354274003E39E2 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D61627354274003E39E2 /* Perfil.swift */; };
+		FD86D61B2735583C003E39E2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D61A2735583C003E39E2 /* PostView.swift */; };
+		FD86D61D27355AFD003E39E2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D61C27355AFD003E39E2 /* Post.swift */; };
+		FD86D61F27355DCE003E39E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D61E27355DCE003E39E2 /* User.swift */; };
+		FD86D6212735BA69003E39E2 /* LikeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86D6202735BA69003E39E2 /* LikeAnimator.swift */; };
+		FDB65F6F2746BDA6003445D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB65F6E2746BDA6003445D9 /* ProfileViewController.swift */; };
+		FDB65F712746C2CF003445D9 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB65F702746C2CF003445D9 /* ProfileCollectionViewCell.swift */; };
+		FDB65F732746C340003445D9 /* ProfileInfoCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB65F722746C340003445D9 /* ProfileInfoCollectionReusableView.swift */; };
+		FDB65F752746C396003445D9 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB65F742746C396003445D9 /* ProfileTabsCollectionReusableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD86D5F227353AF8003E39E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD86D5D327353AF5003E39E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD86D5DA27353AF6003E39E2;
+			remoteInfo = "Insta Grams";
+		};
+		FD86D5FC27353AF8003E39E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD86D5D327353AF5003E39E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD86D5DA27353AF6003E39E2;
+			remoteInfo = "Insta Grams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D5892AF50C7E286F1FA4A83 /* Pods_Insta_Grams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_Grams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A969E9BE6E17F2FCEE31D66E /* Pods-Insta Grams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta Grams.release.xcconfig"; path = "Target Support Files/Pods-Insta Grams/Pods-Insta Grams.release.xcconfig"; sourceTree = "<group>"; };
+		F723EE24EC21129236F7332E /* Pods-Insta Grams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta Grams.debug.xcconfig"; path = "Target Support Files/Pods-Insta Grams/Pods-Insta Grams.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7AD64B2747A162009781BC /* PerfilCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilCollectionViewController.swift; sourceTree = "<group>"; };
+		FD86D5DB27353AF6003E39E2 /* Insta Grams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Grams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86D5DE27353AF6003E39E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD86D5E027353AF6003E39E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD86D5E227353AF6003E39E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD86D5E527353AF6003E39E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD86D5E727353AF8003E39E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD86D5EA27353AF8003E39E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD86D5EC27353AF8003E39E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD86D5F127353AF8003E39E2 /* Insta GramsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta GramsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86D5FB27353AF8003E39E2 /* Insta GramsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta GramsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86D61227353F41003E39E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FD86D61427354252003E39E2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FD86D61627354274003E39E2 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
+		FD86D61A2735583C003E39E2 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		FD86D61C27355AFD003E39E2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FD86D61E27355DCE003E39E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FD86D6202735BA69003E39E2 /* LikeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimator.swift; sourceTree = "<group>"; };
+		FDB65F6E2746BDA6003445D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FDB65F702746C2CF003445D9 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		FDB65F722746C340003445D9 /* ProfileInfoCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCollectionReusableView.swift; sourceTree = "<group>"; };
+		FDB65F742746C396003445D9 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD86D5D827353AF6003E39E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068013B0B0B82D0C31D089BB /* Pods_Insta_Grams.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD86D5EE27353AF8003E39E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD86D5F827353AF8003E39E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DB3FA35B86B7FAE66EC369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F723EE24EC21129236F7332E /* Pods-Insta Grams.debug.xcconfig */,
+				A969E9BE6E17F2FCEE31D66E /* Pods-Insta Grams.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E710077A7B42C9F18A68C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5892AF50C7E286F1FA4A83 /* Pods_Insta_Grams.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD86D5D227353AF5003E39E2 = {
+			isa = PBXGroup;
+			children = (
+				FD86D5DD27353AF6003E39E2 /* Insta Grams */,
+				FD86D5DC27353AF6003E39E2 /* Products */,
+				56DB3FA35B86B7FAE66EC369 /* Pods */,
+				8E710077A7B42C9F18A68C6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD86D5DC27353AF6003E39E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD86D5DB27353AF6003E39E2 /* Insta Grams.app */,
+				FD86D5F127353AF8003E39E2 /* Insta GramsTests.xctest */,
+				FD86D5FB27353AF8003E39E2 /* Insta GramsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD86D5DD27353AF6003E39E2 /* Insta Grams */ = {
+			isa = PBXGroup;
+			children = (
+				FD86D5DE27353AF6003E39E2 /* AppDelegate.swift */,
+				FD86D5E027353AF6003E39E2 /* SceneDelegate.swift */,
+				FD86D5E227353AF6003E39E2 /* ViewController.swift */,
+				FD86D5E427353AF6003E39E2 /* Main.storyboard */,
+				FD86D5E727353AF8003E39E2 /* Assets.xcassets */,
+				FD86D5E927353AF8003E39E2 /* LaunchScreen.storyboard */,
+				FD86D5EC27353AF8003E39E2 /* Info.plist */,
+				FD86D61227353F41003E39E2 /* DetailViewController.swift */,
+				FD86D61427354252003E39E2 /* Home.swift */,
+				FD86D61627354274003E39E2 /* Perfil.swift */,
+				FD86D61A2735583C003E39E2 /* PostView.swift */,
+				FD86D61C27355AFD003E39E2 /* Post.swift */,
+				FD86D61E27355DCE003E39E2 /* User.swift */,
+				FD86D6202735BA69003E39E2 /* LikeAnimator.swift */,
+				FDB65F6E2746BDA6003445D9 /* ProfileViewController.swift */,
+				FDB65F702746C2CF003445D9 /* ProfileCollectionViewCell.swift */,
+				FDB65F722746C340003445D9 /* ProfileInfoCollectionReusableView.swift */,
+				FDB65F742746C396003445D9 /* ProfileTabsCollectionReusableView.swift */,
+				FD7AD64B2747A162009781BC /* PerfilCollectionViewController.swift */,
+			);
+			path = "Insta Grams";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD86D5DA27353AF6003E39E2 /* Insta Grams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD86D60527353AF8003E39E2 /* Build configuration list for PBXNativeTarget "Insta Grams" */;
+			buildPhases = (
+				D6D860F9E337E4A0AA871E83 /* [CP] Check Pods Manifest.lock */,
+				FD86D5D727353AF6003E39E2 /* Sources */,
+				FD86D5D827353AF6003E39E2 /* Frameworks */,
+				FD86D5D927353AF6003E39E2 /* Resources */,
+				CB90E5618D48A19EA6E30DE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insta Grams";
+			productName = "Insta Grams";
+			productReference = FD86D5DB27353AF6003E39E2 /* Insta Grams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD86D5F027353AF8003E39E2 /* Insta GramsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD86D60827353AF8003E39E2 /* Build configuration list for PBXNativeTarget "Insta GramsTests" */;
+			buildPhases = (
+				FD86D5ED27353AF8003E39E2 /* Sources */,
+				FD86D5EE27353AF8003E39E2 /* Frameworks */,
+				FD86D5EF27353AF8003E39E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD86D5F327353AF8003E39E2 /* PBXTargetDependency */,
+			);
+			name = "Insta GramsTests";
+			productName = "Insta GramsTests";
+			productReference = FD86D5F127353AF8003E39E2 /* Insta GramsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD86D5FA27353AF8003E39E2 /* Insta GramsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD86D60B27353AF8003E39E2 /* Build configuration list for PBXNativeTarget "Insta GramsUITests" */;
+			buildPhases = (
+				FD86D5F727353AF8003E39E2 /* Sources */,
+				FD86D5F827353AF8003E39E2 /* Frameworks */,
+				FD86D5F927353AF8003E39E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD86D5FD27353AF8003E39E2 /* PBXTargetDependency */,
+			);
+			name = "Insta GramsUITests";
+			productName = "Insta GramsUITests";
+			productReference = FD86D5FB27353AF8003E39E2 /* Insta GramsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD86D5D327353AF5003E39E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FD86D5DA27353AF6003E39E2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FD86D5F027353AF8003E39E2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD86D5DA27353AF6003E39E2;
+					};
+					FD86D5FA27353AF8003E39E2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD86D5DA27353AF6003E39E2;
+					};
+				};
+			};
+			buildConfigurationList = FD86D5D627353AF5003E39E2 /* Build configuration list for PBXProject "Insta Grams" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD86D5D227353AF5003E39E2;
+			productRefGroup = FD86D5DC27353AF6003E39E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD86D5DA27353AF6003E39E2 /* Insta Grams */,
+				FD86D5F027353AF8003E39E2 /* Insta GramsTests */,
+				FD86D5FA27353AF8003E39E2 /* Insta GramsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD86D5D927353AF6003E39E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD86D5EB27353AF8003E39E2 /* LaunchScreen.storyboard in Resources */,
+				FD86D5E827353AF8003E39E2 /* Assets.xcassets in Resources */,
+				FD86D5E627353AF6003E39E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD86D5EF27353AF8003E39E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD86D5F927353AF8003E39E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB90E5618D48A19EA6E30DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insta Grams/Pods-Insta Grams-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insta Grams/Pods-Insta Grams-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insta Grams/Pods-Insta Grams-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D860F9E337E4A0AA871E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Insta Grams-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD86D5D727353AF6003E39E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD86D61B2735583C003E39E2 /* PostView.swift in Sources */,
+				FD7AD64C2747A162009781BC /* PerfilCollectionViewController.swift in Sources */,
+				FD86D5E327353AF6003E39E2 /* ViewController.swift in Sources */,
+				FD86D5DF27353AF6003E39E2 /* AppDelegate.swift in Sources */,
+				FD86D61D27355AFD003E39E2 /* Post.swift in Sources */,
+				FD86D61527354252003E39E2 /* Home.swift in Sources */,
+				FD86D61F27355DCE003E39E2 /* User.swift in Sources */,
+				FDB65F6F2746BDA6003445D9 /* ProfileViewController.swift in Sources */,
+				FDB65F732746C340003445D9 /* ProfileInfoCollectionReusableView.swift in Sources */,
+				FD86D61727354274003E39E2 /* Perfil.swift in Sources */,
+				FD86D5E127353AF6003E39E2 /* SceneDelegate.swift in Sources */,
+				FD86D61327353F41003E39E2 /* DetailViewController.swift in Sources */,
+				FDB65F752746C396003445D9 /* ProfileTabsCollectionReusableView.swift in Sources */,
+				FDB65F712746C2CF003445D9 /* ProfileCollectionViewCell.swift in Sources */,
+				FD86D6212735BA69003E39E2 /* LikeAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD86D5ED27353AF8003E39E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD86D5F727353AF8003E39E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD86D5F327353AF8003E39E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD86D5DA27353AF6003E39E2 /* Insta Grams */;
+			targetProxy = FD86D5F227353AF8003E39E2 /* PBXContainerItemProxy */;
+		};
+		FD86D5FD27353AF8003E39E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD86D5DA27353AF6003E39E2 /* Insta Grams */;
+			targetProxy = FD86D5FC27353AF8003E39E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD86D5E427353AF6003E39E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD86D5E527353AF6003E39E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD86D5E927353AF8003E39E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD86D5EA27353AF8003E39E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD86D60327353AF8003E39E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD86D60427353AF8003E39E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD86D60627353AF8003E39E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F723EE24EC21129236F7332E /* Pods-Insta Grams.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Insta Grams/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salle.url.edu.Insta-Grams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD86D60727353AF8003E39E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A969E9BE6E17F2FCEE31D66E /* Pods-Insta Grams.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Insta Grams/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salle.url.edu.Insta-Grams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FD86D60927353AF8003E39E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salle.url.edu.Insta-GramsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insta Grams.app/Insta Grams";
+			};
+			name = Debug;
+		};
+		FD86D60A27353AF8003E39E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salle.url.edu.Insta-GramsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insta Grams.app/Insta Grams";
+			};
+			name = Release;
+		};
+		FD86D60C27353AF8003E39E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salle.url.edu.Insta-GramsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Insta Grams";
+			};
+			name = Debug;
+		};
+		FD86D60D27353AF8003E39E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salle.url.edu.Insta-GramsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Insta Grams";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD86D5D627353AF5003E39E2 /* Build configuration list for PBXProject "Insta Grams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD86D60327353AF8003E39E2 /* Debug */,
+				FD86D60427353AF8003E39E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD86D60527353AF8003E39E2 /* Build configuration list for PBXNativeTarget "Insta Grams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD86D60627353AF8003E39E2 /* Debug */,
+				FD86D60727353AF8003E39E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD86D60827353AF8003E39E2 /* Build configuration list for PBXNativeTarget "Insta GramsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD86D60927353AF8003E39E2 /* Debug */,
+				FD86D60A27353AF8003E39E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD86D60B27353AF8003E39E2 /* Build configuration list for PBXNativeTarget "Insta GramsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD86D60C27353AF8003E39E2 /* Debug */,
+				FD86D60D27353AF8003E39E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD86D5D327353AF5003E39E2 /* Project object */;
+}
